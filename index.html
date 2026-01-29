@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <form>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" id="amount" />
+        </div>
+        <div class="dropdown">
+          <div class="select-container">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/197/197386.png"
+              alt="Flag"
+            />
+            <select id="from"></select>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+          <div class="select-container">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+              alt="USA Flag"
+            />
+            <select id="to"></select>
+          </div>
+        </div>
+
+        <p id="result">Enter amount and click Convert</p>
+        <br />
+        <div class="last">
+          <button type="button" id="swap">Swap</button>
+          <button type="button" id="reset">Reset</button>
+        </div>
+        <div class="convert">
+          <button id="convert-btn" type="submit">Convert</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
