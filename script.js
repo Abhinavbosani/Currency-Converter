@@ -1,6 +1,4 @@
-import { API_KEY } from "./config.js";
-
-const URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest/USD`
+const URL = `https://v6.exchangerate-api.com/v6/40974c7f538cebd36c0a1b0c/latest/USD`
 
 let fromSelect;
 let toSelect;
